@@ -1,0 +1,49 @@
+/* Estilo General de la Ventana */
+window {
+    margin: 0px;
+    border: 2px solid #89b4fa; /* Borde azulito a juego con Hyprland */
+    background-color: rgba(30, 30, 46, 0.95); /* Fondo oscuro casi opaco */
+    border-radius: 15px; /* Bordes redondeados */
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+}
+
+/* La caja donde escribes */
+#input {
+    margin: 5px;
+    border: none;
+    color: #cdd6f4;
+    background-color: #313244; /* Un poco más claro que el fondo */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* El contenedor de la lista de apps */
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+/* Cada elemento de la lista (cada app) */
+#entry {
+    margin: 2px 5px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: #cdd6f4;
+    border-radius: 10px;
+}
+
+/* Cuando seleccionas una app (con las flechas o el ratón) */
+#entry:selected {
+    background-color: #89b4fa; /* Azul de acento */
+    color: #1e1e2e; /* Texto oscuro para contraste */
+    font-weight: bold;
+}
+
+/* Iconos de las apps */
+#img {
+    margin-right: 10px;
+}
+
