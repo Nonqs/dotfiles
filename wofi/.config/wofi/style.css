@@ -1,19 +1,26 @@
+/* =============================================================================
+   TEMA: FOGGY GLASS (Versión más opaca)
+   ========================================================================== */
+
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-weight: bold;
+}
+
 window {
     margin: 0px;
-    border: 2px solid #89b4fa; /* Borde azulito a juego con Hyprland */
-    background-color: rgba(30, 30, 46, 0.95); /* Fondo oscuro casi opaco */
-    border-radius: 15px; /* Bordes redondeados */
-    font-family: "JetBrainsMono Nerd Font";
-    font-size: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* CAMBIO AQUÍ: De 0.6 a 0.85 para menos transparencia */
+    background-color: rgba(20, 20, 20, 0.85);
+    border-radius: 15px;
 }
 
 #input {
     margin: 5px;
     border: none;
-    color: #cdd6f4;
-    background-color: #313244; /* Un poco más claro que el fondo */
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.05);
     border-radius: 10px;
-    padding: 10px;
 }
 
 #inner-box {
@@ -23,21 +30,21 @@ window {
 }
 
 #entry {
-    margin: 2px 5px;
-    padding: 10px;
+    margin: 5px;
     border: none;
+    color: #eeeeee;
     background-color: transparent;
-    color: #cdd6f4;
     border-radius: 10px;
 }
 
 #entry:selected {
-    background-color: #89b4fa; /* Azul de acento */
-    color: #1e1e2e; /* Texto oscuro para contraste */
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
     font-weight: bold;
+    outline: none;
 }
 
 #img {
     margin-right: 10px;
+    background-color: transparent;
 }
-
