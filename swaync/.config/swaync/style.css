@@ -1,0 +1,80 @@
+/* =============================================================================
+   TEMA: GOLDEN GLOW (Para Centro de Control)
+   ========================================================================== */
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+}
+
+/* El fondo principal del panel */
+.control-center {
+    background: rgba(20, 20, 20, 0.85); /* Fondo oscuro transparente */
+    border: 2px solid #E0AA3E;          /* Borde DORADO */
+    border-radius: 15px;
+    box-shadow: 0 0 15px 0 rgba(224, 170, 62, 0.2); /* Glow suave */
+    margin: 10px;
+}
+
+/* El fondo de las notificaciones */
+.notification {
+    background: rgba(40, 40, 40, 0.9);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: none;
+}
+
+/* Widgets (Volumen, Brillo) */
+.widget-title {
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.widget-volume, .widget-backlight {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Las barras deslizantes (Sliders) */
+scale trough {
+    background: #444;
+    border-radius: 5px;
+}
+
+scale highlight {
+    background: #E0AA3E; /* Barra llena en DORADO */
+    border-radius: 5px;
+}
+
+/* BOTONES DE LA CUADRÍCULA (Wifi, BT, Audio) */
+.widget-buttons-grid {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin: 3px;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+    background: rgba(224, 170, 62, 0.3); /* Hover Dorado */
+    border-color: #E0AA3E;
+}
+
+/* Reproductor de música */
+.widget-mpris {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 5px;
+}
+.widget-mpris-title {
+    color: #E0AA3E;
+}
+
